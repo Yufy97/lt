@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/zt-base/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zt-base/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zt-company/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zt-company/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zt-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zt-gateway/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zt-graduate/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zt-graduate/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zt-media/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zt-media/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zt-message/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zt-message/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zt-parent/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zt-parent/src/main/resources" charset="UTF-8" />
+    <file url="file://$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3/mvn_resp/org/springframework/boot/spring-boot-starter-parent/2.5.0/src/main/resources" charset="UTF-8" />
+  </component>
+</project>
