@@ -1,9 +1,9 @@
 server:
   servlet:
-    context-path: /message
+    context-path: /company
 spring:
   application:
-    name: message-service
+    name: company-service
   profiles:
     active: dev
   cloud:
@@ -21,6 +21,6 @@ spring:
 mybatis-plus:
   global-config:
     db-config:
-      id-type: auto
+      id-type: assign_id
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl

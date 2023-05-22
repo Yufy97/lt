@@ -1,9 +1,9 @@
 server:
   servlet:
-    context-path: /message
+    context-path: /media
 spring:
   application:
-    name: message-service
+    name: media-service
   profiles:
     active: dev
   cloud:
@@ -19,8 +19,5 @@ spring:
           - data-id: database-dev
             refresh: true
 mybatis-plus:
-  global-config:
-    db-config:
-      id-type: auto
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl

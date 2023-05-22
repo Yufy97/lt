@@ -5,10 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0411e6ca-8b26-4ec2-bf30-89837a8ccb73" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zt-company/src/main/java/com/zt/CompanyApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zt-company/src/main/resources/bootstrap.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zt-graduate/src/main/java/com/zt/GraduateApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zt-graduate/src/main/resources/bootstrap.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zt-media/src/main/java/com/zt/MediaApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zt-media/src/main/resources/bootstrap.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d46ec477-c68e-4749-9394-aa888a4a30fe.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d46ec477-c68e-4749-9394-aa888a4a30fe.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zt-message/src/main/resources/bootstrap.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/zt-message/src/main/resources/bootstrap.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +39,9 @@
     </option>
   </component>
   <component name="ProjectId" id="2Q5hEsURCj9YxwN8MrbtV2lHpYT" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -47,10 +54,11 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "D:/Code/zt/zt-base/src/main/java/com/zt",
+    "last_opened_file_path": "D:/Code/zt/zt-media/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -60,6 +68,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "application.passwordSafe",
+    "spring.configuration.checksum": "d31ddcb330e9c040c81b1651ddac0b43",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -70,6 +79,9 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\zt\zt-media\src\main\resources" />
+      <recent name="D:\Code\zt\zt-graduate\src\main\resources" />
+      <recent name="D:\Code\zt\zt-company\src\main\resources" />
       <recent name="D:\Code\zt\zt-base\src\main\java\com\zt" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -125,6 +137,7 @@
       <workItem from="1684649579705" duration="3000" />
       <workItem from="1684649599530" duration="2423000" />
       <workItem from="1684652032885" duration="10944000" />
+      <workItem from="1684741358134" duration="3043000" />
     </task>
     <servers />
   </component>
