@@ -15,7 +15,7 @@ spring:
         file-extension: yaml
         refresh-enabled: true
         namespace: 39b47f64-82b3-4252-971d-2b944984f25d
-        extension-configs:
+        shared-configs:
           - data-id: database-dev
             refresh: true
 mybatis-plus:

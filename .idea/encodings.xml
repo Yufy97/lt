@@ -5,6 +5,8 @@
     <file url="file://$PROJECT_DIR$/zt-base/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/zt-company/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/zt-company/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zt-feign-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zt-feign-api/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/zt-gateway/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/zt-gateway/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/zt-graduate/src/main/java" charset="UTF-8" />

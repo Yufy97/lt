@@ -33,10 +33,12 @@ public class MessageServer implements InitializingBean {
 
         EventLoopGroup bossGroup = new NioEventLoopGroup(1);
         EventLoopGroup workerGroup = new NioEventLoopGroup();
+
         MessageHandler messageHandler = new MessageHandler();
         ConnectHandler connectHandler = new ConnectHandler();
         HeartBeatHandler heartBeatHandler = new HeartBeatHandler();
         HttpRequestHandler httpRequestHandler = new HttpRequestHandler();
+
         try {
 
             ServerBootstrap serverBootstrap = new ServerBootstrap();

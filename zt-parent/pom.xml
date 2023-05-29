@@ -15,6 +15,7 @@
         <module>../zt-company</module>
         <module>../zt-graduate</module>
         <module>../zt-gateway</module>
+        <module>../zt-feign-api</module>
     </modules>
 
     <properties>

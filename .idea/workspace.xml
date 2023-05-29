@@ -4,16 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0411e6ca-8b26-4ec2-bf30-89837a8ccb73" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zt-company/src/main/java/com/zt/CompanyApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zt-company/src/main/resources/bootstrap.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zt-graduate/src/main/java/com/zt/GraduateApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zt-graduate/src/main/resources/bootstrap.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zt-media/src/main/java/com/zt/MediaApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zt-media/src/main/resources/bootstrap.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d46ec477-c68e-4749-9394-aa888a4a30fe.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d46ec477-c68e-4749-9394-aa888a4a30fe.xml" afterDir="false" />
+    <list default="true" id="0411e6ca-8b26-4ec2-bf30-89837a8ccb73" name="更改" comment="init">
+      <change afterPath="$PROJECT_DIR$/zt-feign-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zt-message/src/main/java/com/zt/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zt-company/src/main/resources/bootstrap.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/zt-company/src/main/resources/bootstrap.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zt-graduate/src/main/resources/bootstrap.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/zt-graduate/src/main/resources/bootstrap.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zt-media/src/main/resources/bootstrap.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/zt-media/src/main/resources/bootstrap.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zt-message/src/main/java/com/zt/entity/po/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/zt-message/src/main/java/com/zt/entity/po/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zt-message/src/main/java/com/zt/handler/HttpRequestHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/zt-message/src/main/java/com/zt/handler/HttpRequestHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zt-message/src/main/java/com/zt/server/MessageServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/zt-message/src/main/java/com/zt/server/MessageServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zt-message/src/main/java/com/zt/service/impl/MessageListServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/zt-message/src/main/java/com/zt/service/impl/MessageListServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zt-message/src/main/java/com/zt/service/impl/MessageServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/zt-message/src/main/java/com/zt/service/impl/MessageServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zt-message/src/main/resources/bootstrap.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/zt-message/src/main/resources/bootstrap.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zt-parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zt-parent/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +30,7 @@
       <list>
         <option value="Enum" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -48,6 +54,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
@@ -67,8 +74,8 @@
     "project.structure.last.edited": "项目",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "application.passwordSafe",
-    "spring.configuration.checksum": "d31ddcb330e9c040c81b1651ddac0b43",
+    "settings.editor.selected.configurable": "com.sjhy.plugin.ui.TemplateSettingForm",
+    "spring.configuration.checksum": "93d3a15a0e1d9c6d3cce8ccdafd1a396",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -96,7 +103,14 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.GatewayApplication">
+  <component name="RunManager" selected="Spring Boot.CompanyApplication">
+    <configuration name="CompanyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="zt-company" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zt.CompanyApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="zt-gateway" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.zt.GatewayApplication" />
@@ -106,6 +120,20 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GraduateApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="zt-graduate" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zt.GraduateApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MediaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="zt-media" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zt.MediaApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -138,10 +166,33 @@
       <workItem from="1684649599530" duration="2423000" />
       <workItem from="1684652032885" duration="10944000" />
       <workItem from="1684741358134" duration="3043000" />
+      <workItem from="1684764607300" duration="170000" />
+      <workItem from="1684929263584" duration="281000" />
+      <workItem from="1684929555444" duration="893000" />
+      <workItem from="1684930468855" duration="65000" />
+      <workItem from="1684930548602" duration="5272000" />
+      <workItem from="1684999933443" duration="6922000" />
+      <workItem from="1685018771699" duration="71000" />
     </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1684764659435</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1684764659435</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
