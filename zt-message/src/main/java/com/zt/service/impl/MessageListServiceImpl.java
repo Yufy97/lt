@@ -38,6 +38,7 @@ public class MessageListServiceImpl extends ServiceImpl<MessageListMapper, Messa
                     User user = userMapper.getById(messageListVo.getToUserId());
                     messageListVo.setToUserAvatar(user.getAvatar());
                     messageListVo.setToUserNickname(user.getNickname());
+                    messageListVo.setDepartment(user.getDepartment());
                 });
         return messageListVos;
     }

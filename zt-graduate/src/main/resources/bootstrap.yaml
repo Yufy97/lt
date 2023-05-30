@@ -15,9 +15,19 @@ spring:
         file-extension: yaml
         refresh-enabled: true
         namespace: 39b47f64-82b3-4252-971d-2b944984f25d
-        shared-configs:
-          - data-id: database-dev
+        extension-configs:
+          - data-id: database-dev.yaml
             refresh: true
+  redis:
+    host: 162.14.106.166
+    port: 6379
+    password: asdfghjkl123
+    pool:
+      max-active: 8
+      max-idle: 8
+      min-idle: 0
+      max-wait: -1
+
 mybatis-plus:
   global-config:
     db-config:

@@ -9,30 +9,32 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 /**
- * (Graduate)表实体类
+ * (ProjectExp)表实体类
  *
  * @author makejava
- * @since 2023-05-29 19:18:53
+ * @since 2023-05-30 16:50:10
  */
 @SuppressWarnings("serial")
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Graduate{
-    @TableId(type = IdType.ASSIGN_ID)
+public class ProjectExp {
+    @TableId(type = IdType.AUTO)
     private Long id;
     
-    private String username;
+    private Long userId;
     
-    private String password;
+    private String projectName;
     
-    private String nickname;
+    private String beginTime;
     
-    private String avatar;
-
-    private String gender;
-
-    private Integer birthday;
+    private String endTime;
+    
+    private String description;
+    
+    private String duty;
+    
+    private String url;
 
 }
 

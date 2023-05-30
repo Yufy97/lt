@@ -1,7 +1,5 @@
 package com.zt.entity.po;
 
-import java.io.Serializable;
-
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
 import lombok.AllArgsConstructor;
@@ -9,30 +7,26 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 /**
- * (Graduate)表实体类
+ * (EducationExperience)表实体类
  *
  * @author makejava
- * @since 2023-05-29 19:18:53
+ * @since 2023-05-30 16:22:42
  */
 @SuppressWarnings("serial")
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Graduate{
-    @TableId(type = IdType.ASSIGN_ID)
+public class EducationExp {
+    @TableId(type = IdType.AUTO)
     private Long id;
     
-    private String username;
+    private Long userId;
     
-    private String password;
+    private String schoolName;
     
-    private String nickname;
+    private Integer graduateYear;
     
-    private String avatar;
-
-    private String gender;
-
-    private Integer birthday;
+    private String degree;
 
 }
 

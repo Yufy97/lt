@@ -8,6 +8,12 @@ import org.apache.ibatis.annotations.Select;
 @Mapper
 public interface UserMapper {
 
-    @Select("select * from graduate where id = #{id} union select * from hr where id = #{id}")
+    @Select("select g.id, nickname, avatar,  school_name as department from graduate g\n" +
+            "left join education_exp ee on g.id = ee.user_id\n" +
+            "where g.id = #{id}\n" +
+            "union\n" +
+            "select r.id, nickname, avatar, name as department from recruiters r\n" +
+            "left join company c on r.company_id = c.id\n" +
+            "where r.id = #{id};")
     User getById(@Param("id") Long id);
 }

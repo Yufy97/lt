@@ -14,6 +14,8 @@ public class MessageListVo {
 
     private String toUserNickname;
 
+    private String department;
+
     private String lastMessage;
 
     private Date lastTime;

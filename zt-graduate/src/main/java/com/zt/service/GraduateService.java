@@ -1,6 +1,9 @@
 package com.zt.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.zt.entity.Result;
+import com.zt.entity.dto.GraduateLoginDto;
+import com.zt.entity.dto.GraduateRegisterDto;
 import com.zt.entity.po.Graduate;
 
 
@@ -12,5 +15,8 @@ import com.zt.entity.po.Graduate;
  */
 public interface GraduateService extends IService<Graduate> {
 
+    Result register(GraduateRegisterDto graduateRegisterDto);
+
+    Result login(GraduateLoginDto graduateLoginDto);
 }
 

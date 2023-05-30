@@ -18,6 +18,16 @@ spring:
         shared-configs:
           - data-id: database-dev
             refresh: true
+  redis:
+    host: 162.14.106.166
+    port: 6379
+    password: asdfghjkl123
+    pool:
+      max-active: 8
+      max-idle: 8
+      min-idle: 0
+      max-wait: -1
+
 mybatis-plus:
   global-config:
     db-config:

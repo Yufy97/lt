@@ -5,20 +5,48 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0411e6ca-8b26-4ec2-bf30-89837a8ccb73" name="更改" comment="init">
-      <change afterPath="$PROJECT_DIR$/zt-feign-api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zt-message/src/main/java/com/zt/mapper/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/easyCodeTableSetting.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zt-graduate/src/main/java/com/zt/config/JWTUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zt-graduate/src/main/java/com/zt/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zt-graduate/src/main/java/com/zt/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zt-graduate/src/main/java/com/zt/config/WebUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zt-graduate/src/main/java/com/zt/constant/MediaConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zt-graduate/src/main/java/com/zt/constant/RedisConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zt-graduate/src/main/java/com/zt/controller/GraduateController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zt-graduate/src/main/java/com/zt/entity/dto/GraduateLoginDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zt-graduate/src/main/java/com/zt/entity/dto/GraduateRegisterDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zt-graduate/src/main/java/com/zt/entity/po/EducationExp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zt-graduate/src/main/java/com/zt/entity/po/LoginUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zt-graduate/src/main/java/com/zt/entity/po/PersonalDes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zt-graduate/src/main/java/com/zt/entity/po/ProjectExp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zt-graduate/src/main/java/com/zt/entity/vo/GraduateInfoVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zt-graduate/src/main/java/com/zt/entity/vo/LoginVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zt-graduate/src/main/java/com/zt/filter/JwtAuthenticationTokenFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zt-graduate/src/main/java/com/zt/mapper/EducationExpMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zt-graduate/src/main/java/com/zt/mapper/PersonalDesMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zt-graduate/src/main/java/com/zt/mapper/ProjectExpMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zt-graduate/src/main/java/com/zt/service/EducationExpService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zt-graduate/src/main/java/com/zt/service/PersonalDesService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zt-graduate/src/main/java/com/zt/service/ProjectExpService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zt-graduate/src/main/java/com/zt/service/impl/EducationExpServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zt-graduate/src/main/java/com/zt/service/impl/PersonalDesServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zt-graduate/src/main/java/com/zt/service/impl/ProjectExpServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zt-graduate/src/main/java/com/zt/service/impl/UserDetailsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zt-graduate/src/main/java/com/zt/utils/FastJsonRedisSerializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d46ec477-c68e-4749-9394-aa888a4a30fe.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d46ec477-c68e-4749-9394-aa888a4a30fe.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zt-base/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zt-base/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zt-company/src/main/resources/bootstrap.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/zt-company/src/main/resources/bootstrap.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zt-graduate/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zt-graduate/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zt-graduate/src/main/java/com/zt/entity/po/Graduate.java" beforeDir="false" afterPath="$PROJECT_DIR$/zt-graduate/src/main/java/com/zt/entity/po/Graduate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zt-graduate/src/main/java/com/zt/service/GraduateService.java" beforeDir="false" afterPath="$PROJECT_DIR$/zt-graduate/src/main/java/com/zt/service/GraduateService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zt-graduate/src/main/java/com/zt/service/impl/GraduateServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/zt-graduate/src/main/java/com/zt/service/impl/GraduateServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zt-graduate/src/main/resources/bootstrap.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/zt-graduate/src/main/resources/bootstrap.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zt-media/src/main/resources/bootstrap.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/zt-media/src/main/resources/bootstrap.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zt-message/src/main/java/com/zt/entity/po/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/zt-message/src/main/java/com/zt/entity/po/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zt-message/src/main/java/com/zt/handler/HttpRequestHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/zt-message/src/main/java/com/zt/handler/HttpRequestHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zt-message/src/main/java/com/zt/server/MessageServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/zt-message/src/main/java/com/zt/server/MessageServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zt-message/src/main/java/com/zt/entity/vo/MessageListVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/zt-message/src/main/java/com/zt/entity/vo/MessageListVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zt-message/src/main/java/com/zt/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/zt-message/src/main/java/com/zt/mapper/UserMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zt-message/src/main/java/com/zt/service/impl/MessageListServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/zt-message/src/main/java/com/zt/service/impl/MessageListServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zt-message/src/main/java/com/zt/service/impl/MessageServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/zt-message/src/main/java/com/zt/service/impl/MessageServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zt-message/src/main/resources/bootstrap.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/zt-message/src/main/resources/bootstrap.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zt-parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zt-parent/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,8 +57,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -52,48 +80,50 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "D:/Code/zt/zt-media/src/main/resources",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "项目",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "com.sjhy.plugin.ui.TemplateSettingForm",
-    "spring.configuration.checksum": "93d3a15a0e1d9c6d3cce8ccdafd1a396",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Code/zt/zt-graduate/src/main/java/com/zt/config&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.sjhy.plugin.ui.TemplateSettingForm&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;93d3a15a0e1d9c6d3cce8ccdafd1a396&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\zt\zt-graduate\src\main\java\com\zt\config" />
+      <recent name="D:\Code\zt\zt-graduate\src\main\java\com\zt" />
       <recent name="D:\Code\zt\zt-media\src\main\resources" />
       <recent name="D:\Code\zt\zt-graduate\src\main\resources" />
       <recent name="D:\Code\zt\zt-company\src\main\resources" />
-      <recent name="D:\Code\zt\zt-base\src\main\java\com\zt" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.zt.utils" />
+      <recent name="com.zt.service.impl" />
       <recent name="com.zt.config" />
+      <recent name="com.zt.utils" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -103,7 +133,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.CompanyApplication">
+  <component name="RunManager" selected="Spring Boot.GraduateApplication">
     <configuration name="CompanyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="zt-company" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.zt.CompanyApplication" />
@@ -173,6 +203,9 @@
       <workItem from="1684930548602" duration="5272000" />
       <workItem from="1684999933443" duration="6922000" />
       <workItem from="1685018771699" duration="71000" />
+      <workItem from="1685352052760" duration="4084000" />
+      <workItem from="1685361414965" duration="4266000" />
+      <workItem from="1685414001578" duration="15530000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1684764659435</created>
@@ -181,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684764659435</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="init">
+      <created>1685360150605</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1685360150605</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
