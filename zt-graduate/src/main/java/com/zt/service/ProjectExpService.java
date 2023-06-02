@@ -1,6 +1,7 @@
 package com.zt.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.zt.entity.Result;
 import com.zt.entity.po.ProjectExp;
 
 
@@ -12,5 +13,6 @@ import com.zt.entity.po.ProjectExp;
  */
 public interface ProjectExpService extends IService<ProjectExp> {
 
+    Result getProjectById(Long userId);
 }
 

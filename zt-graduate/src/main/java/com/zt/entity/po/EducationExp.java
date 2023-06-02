@@ -23,6 +23,8 @@ public class EducationExp {
     private Long userId;
     
     private String schoolName;
+
+    private String major;
     
     private Integer graduateYear;
     

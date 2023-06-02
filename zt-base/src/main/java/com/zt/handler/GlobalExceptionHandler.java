@@ -59,7 +59,7 @@ public class GlobalExceptionHandler  {
     public Result methodArgumentNotValidException(MethodArgumentNotValidException e) {
         BindingResult bindingResult = e.getBindingResult();
         List<String> msgList = new ArrayList<>();
-        bindingResult.getFieldErrors().stream().forEach(item->msgList.add(item.getDefaultMessage()));
+        bindingResult.getFieldErrors().forEach(item->msgList.add(item.getDefaultMessage()));
         String msg = StrUtil.join(msgList.toString());
         log.error("【系统异常】{}",msg);
         return Result.errorResult(AppHttpCodeEnum.EMPTY_PARAMS_ERROR);

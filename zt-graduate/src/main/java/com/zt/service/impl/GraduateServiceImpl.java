@@ -15,6 +15,7 @@ import com.zt.entity.vo.LoginVo;
 import com.zt.mapper.GraduateMapper;
 import com.zt.service.GraduateService;
 import com.zt.utils.BeanCopyUtils;
+import com.zt.utils.SecurityUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.security.authentication.AuthenticationManager;
@@ -73,6 +74,20 @@ public class GraduateServiceImpl extends ServiceImpl<GraduateMapper, Graduate> i
         GraduateInfoVo userInfoVo = BeanCopyUtils.copyBean(loginUser.getGraduate(), GraduateInfoVo.class);
         LoginVo vo = new LoginVo(jwt,userInfoVo);
         return Result.okResult(vo);
+    }
+
+    @Override
+    public Result logout() {
+        Long userId = SecurityUtils.getUserId();
+        redisTemplate.delete(RedisConstant.REDIS_LOGIN_USER + userId);
+        return Result.okResult();
+    }
+
+    @Override
+    public Result getInfoById(Long id) {
+        Graduate graduate = getById(id);
+        GraduateInfoVo graduateInfoVo = BeanCopyUtils.copyBean(graduate, GraduateInfoVo.class);
+        return Result.okResult(graduateInfoVo);
     }
 }
 

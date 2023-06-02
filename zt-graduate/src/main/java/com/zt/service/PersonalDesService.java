@@ -1,6 +1,7 @@
 package com.zt.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.zt.entity.Result;
 import com.zt.entity.po.PersonalDes;
 
 
@@ -12,5 +13,6 @@ import com.zt.entity.po.PersonalDes;
  */
 public interface PersonalDesService extends IService<PersonalDes> {
 
+    Result getPersonalDesByUserId(Long userId);
 }
 

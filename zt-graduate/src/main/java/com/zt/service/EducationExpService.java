@@ -1,6 +1,7 @@
 package com.zt.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.zt.entity.Result;
 import com.zt.entity.po.EducationExp;
 
 
@@ -12,5 +13,6 @@ import com.zt.entity.po.EducationExp;
  */
 public interface EducationExpService extends IService<EducationExp> {
 
+    Result getByUserId(Long userId);
 }
 

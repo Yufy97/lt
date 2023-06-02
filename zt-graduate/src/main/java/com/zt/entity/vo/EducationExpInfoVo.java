@@ -7,14 +7,14 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class GraduateInfoVo {
+public class EducationExpInfoVo {
     private Long id;
 
-    private String nickname;
+    private String schoolName;
 
-    private String avatar;
+    private String major;
 
-    private String gender;
+    private Integer graduateYear;
 
-    private Integer birthday;
+    private String degree;
 }

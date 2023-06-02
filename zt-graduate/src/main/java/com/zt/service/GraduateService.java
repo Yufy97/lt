@@ -18,5 +18,10 @@ public interface GraduateService extends IService<Graduate> {
     Result register(GraduateRegisterDto graduateRegisterDto);
 
     Result login(GraduateLoginDto graduateLoginDto);
+
+    Result logout();
+
+    Result getInfoById(Long id);
+
 }
 
