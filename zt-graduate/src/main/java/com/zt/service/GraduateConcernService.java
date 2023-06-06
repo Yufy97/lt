@@ -2,6 +2,7 @@ package com.zt.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
 import com.zt.entity.Result;
+import com.zt.entity.dto.GraduateConcernDto;
 import com.zt.entity.po.GraduateConcern;
 
 
@@ -17,7 +18,7 @@ public interface GraduateConcernService extends IService<GraduateConcern> {
 
     Result isConcern(Long userId, Long concernId);
 
-    Result concern(GraduateConcern graduateConcern);
+    Result concern(GraduateConcernDto graduateConcernDto);
 
 }
 

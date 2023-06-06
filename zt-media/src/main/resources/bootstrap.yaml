@@ -1,7 +1,12 @@
 server:
   servlet:
     context-path: /media
+
 spring:
+  servlet:
+    multipart:
+      max-file-size: 2MB
+      max-request-size: 5MB
   application:
     name: media-service
   profiles:
@@ -15,9 +20,13 @@ spring:
         file-extension: yaml
         refresh-enabled: true
         namespace: 39b47f64-82b3-4252-971d-2b944984f25d
-        shared-configs:
-          - data-id: database-dev
+        extension-configs:
+          - data-id: database-dev.yaml
             refresh: true
 mybatis-plus:
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+oss:
+  accessKey: b1KPcG10Ulk_eQK-ymn1ubbnvyERWIaTHtlsh4S7
+  secretKey: QuTiyy2xg7WrYwTpByb6g-xmmwBsIDDNsIJNnFhy
+  bucket: ct-pro

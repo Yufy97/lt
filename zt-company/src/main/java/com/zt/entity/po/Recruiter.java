@@ -1,6 +1,5 @@
 package com.zt.entity.po;
 
-import java.io.Serializable;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -15,7 +14,7 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Recruiters {
+public class Recruiter {
     
     private Long id;
     

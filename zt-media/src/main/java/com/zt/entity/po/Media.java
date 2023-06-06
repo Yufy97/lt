@@ -23,12 +23,7 @@ public class Media {
     private String fileName;
     
     private String url;
-    
-    private Date createTime;
-    
-    private Date updateTime;
-    
-    private Integer isDel;
+
 
 }
 

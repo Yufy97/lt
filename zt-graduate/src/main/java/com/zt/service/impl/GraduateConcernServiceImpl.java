@@ -2,11 +2,14 @@ package com.zt.service.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.zt.entity.Result;
+import com.zt.entity.dto.GraduateConcernDto;
 import com.zt.entity.po.GraduateConcern;
 import com.zt.mapper.GraduateConcernMapper;
 import com.zt.service.GraduateConcernService;
+import com.zt.utils.BeanCopyUtils;
 import org.springframework.stereotype.Service;
 
+import java.time.LocalDate;
 import java.util.List;
 
 /**
@@ -38,8 +41,11 @@ public class GraduateConcernServiceImpl extends ServiceImpl<GraduateConcernMappe
     }
 
     @Override
-    public Result concern(GraduateConcern graduateConcern) {
-        if(graduateConcern.getId() == null) {
+    public Result concern(GraduateConcernDto graduateConcernDto) {
+        GraduateConcern graduateConcern = lambdaQuery().eq(GraduateConcern::getUserId, graduateConcernDto.getUserId()).eq(GraduateConcern::getConcernId, graduateConcernDto.getConcernId()).one();
+        if(graduateConcern == null) {
+            graduateConcern = BeanCopyUtils.copyBean(graduateConcernDto, GraduateConcern.class);
+            graduateConcern.setCreateTime(LocalDate.now());
             save(graduateConcern);
         } else {
             removeById(graduateConcern.getId());

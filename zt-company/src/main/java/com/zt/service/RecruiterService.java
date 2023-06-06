@@ -1,7 +1,7 @@
 package com.zt.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.zt.entity.po.Recruiters;
+import com.zt.entity.po.Recruiter;
 
 
 /**
@@ -10,7 +10,7 @@ import com.zt.entity.po.Recruiters;
  * @author makejava
  * @since 2023-05-29 19:32:11
  */
-public interface RecruitersService extends IService<Recruiters> {
+public interface RecruiterService extends IService<Recruiter> {
 
 }
 

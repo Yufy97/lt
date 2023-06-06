@@ -1,7 +1,7 @@
 package com.zt.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.zt.entity.po.Recruiters;
+import com.zt.entity.po.Recruiter;
 
 
 /**
@@ -10,7 +10,7 @@ import com.zt.entity.po.Recruiters;
  * @author makejava
  * @since 2023-05-29 19:32:11
  */
-public interface RecruitersMapper extends BaseMapper<Recruiters> {
+public interface RecruiterMapper extends BaseMapper<Recruiter> {
 
 }
 

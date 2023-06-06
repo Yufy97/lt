@@ -1,6 +1,7 @@
 package com.zt.controller;
 
 import com.zt.entity.Result;
+import com.zt.entity.dto.GraduateConcernDto;
 import com.zt.entity.po.GraduateConcern;
 import com.zt.service.GraduateConcernService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,12 +21,12 @@ public class GraduateConcernController {
     }
 
     @PostMapping
-    public Result concern(GraduateConcern graduateConcern) {
-        return graduateConcernService.concern(graduateConcern);
+    public Result concern(@RequestBody GraduateConcernDto graduateConcernDto) {
+        return graduateConcernService.concern(graduateConcernDto);
     }
 
     @DeleteMapping
-    public Result removeGraduateConcernByIds(List<Long> ids) {
+    public Result removeGraduateConcernByIds(@RequestBody List<Long> ids) {
         graduateConcernService.removeBatchByIds(ids);
         return Result.okResult();
     }
