@@ -6,30 +6,22 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 /**
- * (Company)表实体类
+ * (CompanyPic)表实体类
  *
  * @author makejava
- * @since 2023-05-29 19:30:22
+ * @since 2023-06-07 21:22:17
  */
 @SuppressWarnings("serial")
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Company {
+public class CompanyPic {
     
     private Long id;
     
-    private String name;
+    private Long companyId;
     
-    private String logo;
-    
-    private String type;
-    
-    private String tag;
-    
-    private String introduce;
-    
-    private String address;
+    private String mediaId;
 
 }
 

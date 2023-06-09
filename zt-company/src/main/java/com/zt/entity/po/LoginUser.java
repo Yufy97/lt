@@ -13,7 +13,7 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 public class LoginUser implements UserDetails {
-    private Graduate graduate;
+    private Recruiter recruiter;
     private List<String> perms;
 
     @Override
@@ -23,12 +23,12 @@ public class LoginUser implements UserDetails {
 
     @Override
     public String getPassword() {
-        return graduate.getPassword();
+        return recruiter.getPassword();
     }
 
     @Override
     public String getUsername() {
-        return graduate.getUsername();
+        return recruiter.getUsername();
     }
 
     @Override

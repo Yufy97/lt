@@ -5,6 +5,7 @@ import com.zt.entity.Result;
 import com.zt.entity.dto.GraduateLoginDto;
 import com.zt.entity.dto.GraduateRegisterDto;
 import com.zt.entity.po.Graduate;
+import com.zt.entity.vo.GraduateInfoVo;
 
 
 /**
@@ -23,5 +24,6 @@ public interface GraduateService extends IService<Graduate> {
 
     Result getInfoById(Long id);
 
+    Result update(GraduateInfoVo graduateInfoVo);
 }
 

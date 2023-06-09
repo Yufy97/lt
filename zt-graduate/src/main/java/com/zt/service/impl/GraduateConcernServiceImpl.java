@@ -21,12 +21,12 @@ import java.util.List;
 @Service("graduateConcernService")
 public class GraduateConcernServiceImpl extends ServiceImpl<GraduateConcernMapper, GraduateConcern> implements GraduateConcernService {
 
-    @Override
+        @Override
     public Result getGraduateConcernByUserId(Long userId, Integer type, Integer pageNum, Integer pageSize) {
         GraduateConcernMapper graduateConcernMapper = getBaseMapper();
         List<Long> concernIds = graduateConcernMapper.selectGraduateConcernByUserId(userId, type, (pageNum - 1) * pageSize, pageSize);
         //todo 获取关注信息
-        if(type == 0) {
+        if (type == 0) {
 
         } else {
 

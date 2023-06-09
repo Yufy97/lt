@@ -1,6 +1,8 @@
 package com.zt.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.zt.entity.Result;
+import com.zt.entity.dto.CompanySaveDto;
 import com.zt.entity.po.Company;
 
 
@@ -12,5 +14,11 @@ import com.zt.entity.po.Company;
  */
 public interface CompanyService extends IService<Company> {
 
+    Result save(CompanySaveDto companySaveDto);
+
+
+    Result getSimpleInfo(Long recruiterId);
+
+    Result getDetailInfo(Long companyId);
 }
 

@@ -4,6 +4,7 @@ import com.zt.entity.Result;
 import com.zt.entity.dto.GraduateLoginDto;
 import com.zt.entity.dto.GraduateRegisterDto;
 import com.zt.entity.po.Graduate;
+import com.zt.entity.vo.GraduateInfoVo;
 import com.zt.service.GraduateService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.validation.annotation.Validated;
@@ -36,8 +37,8 @@ public class GraduateController {
     }
 
     @PutMapping
-    public Result update(@RequestBody Graduate graduate) {
-        graduateService.updateById(graduate);
-        return Result.okResult();
+    public Result update(@RequestBody GraduateInfoVo graduateInfoVo) {
+
+        return graduateService.update(graduateInfoVo);
     }
 }

@@ -7,9 +7,9 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class PersonalDesVo {
+public class LoginVo {
 
-    private String id;
+    private String ztToken;
 
-    private String description;
+    private RecruiterInfoVo recruiterInfoVo;
 }

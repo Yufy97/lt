@@ -34,5 +34,6 @@ public class Graduate{
 
     private Integer birthday;
 
+    private String desc;
 }
 

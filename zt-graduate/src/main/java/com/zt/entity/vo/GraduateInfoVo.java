@@ -17,4 +17,6 @@ public class GraduateInfoVo {
     private String gender;
 
     private Integer birthday;
+
+    private String desc;
 }

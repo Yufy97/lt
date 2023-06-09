@@ -1,6 +1,7 @@
 package com.zt.controller;
 
 import com.zt.entity.Result;
+import com.zt.entity.po.Media;
 import com.zt.service.MediaService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -22,5 +23,10 @@ public class MediaController {
     @DeleteMapping("/remove")
     public Result remove(@RequestBody List<String> keys) {
         return mediaService.remove(keys);
+    }
+
+    @GetMapping("/list")
+    public List<Media> list(List<String> ids) {
+        return mediaService.lambdaQuery().in(Media::getId, ids).list();
     }
 }

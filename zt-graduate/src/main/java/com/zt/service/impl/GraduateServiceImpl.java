@@ -89,5 +89,12 @@ public class GraduateServiceImpl extends ServiceImpl<GraduateMapper, Graduate> i
         GraduateInfoVo graduateInfoVo = BeanCopyUtils.copyBean(graduate, GraduateInfoVo.class);
         return Result.okResult(graduateInfoVo);
     }
+
+    @Override
+    public Result update(GraduateInfoVo graduateInfoVo) {
+        Graduate graduate = BeanCopyUtils.copyBean(graduateInfoVo, Graduate.class);
+        updateById(graduate);
+        return Result.okResult();
+    }
 }
 
