@@ -70,7 +70,7 @@ public class CompanyServiceImpl extends ServiceImpl<CompanyMapper, Company> impl
         List<Media> picture = mediaClient.list(mediaIds);
 
         companyDetailVo.setPicture(picture);
-        return Result.okResult();
+        return Result.okResult(companyDetailVo);
     }
 }
 

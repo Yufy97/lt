@@ -16,7 +16,7 @@ spring:
         refresh-enabled: true
         namespace: 39b47f64-82b3-4252-971d-2b944984f25d
         shared-configs:
-          - data-id: database-dev
+          - data-id: database-dev.yaml
             refresh: true
   redis:
     host: 162.14.106.166

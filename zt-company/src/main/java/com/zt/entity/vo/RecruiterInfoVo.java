@@ -1,6 +1,8 @@
 package com.zt.entity.vo;
 
+import lombok.Data;
 
+@Data
 public class RecruiterInfoVo {
     private Long id;
 

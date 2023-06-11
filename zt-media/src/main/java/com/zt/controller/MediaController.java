@@ -26,7 +26,7 @@ public class MediaController {
     }
 
     @GetMapping("/list")
-    public List<Media> list(List<String> ids) {
+    public List<Media> list(@RequestBody List<String> ids) {
         return mediaService.lambdaQuery().in(Media::getId, ids).list();
     }
 }
