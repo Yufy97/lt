@@ -4,15 +4,40 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0411e6ca-8b26-4ec2-bf30-89837a8ccb73" name="更改" comment="feat:企业端信息注册">
+    <list default="true" id="0411e6ca-8b26-4ec2-bf30-89837a8ccb73" name="更改" comment="fix:feign调用">
+      <change afterPath="$PROJECT_DIR$/zt-company/src/main/java/com/zt/controller/PostController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zt-company/src/main/java/com/zt/entity/dto/PostAddDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zt-company/src/main/java/com/zt/entity/po/Post.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zt-company/src/main/java/com/zt/entity/po/PostSchool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zt-company/src/main/java/com/zt/entity/po/PostTag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zt-company/src/main/java/com/zt/entity/vo/PostDetailInfoVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zt-company/src/main/java/com/zt/entity/vo/PostSchoolVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zt-company/src/main/java/com/zt/entity/vo/PostSimpleInfoVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zt-company/src/main/java/com/zt/entity/vo/PostTagVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zt-company/src/main/java/com/zt/mapper/PostMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zt-company/src/main/java/com/zt/mapper/PostSchoolMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zt-company/src/main/java/com/zt/mapper/PostTagMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zt-company/src/main/java/com/zt/service/PostSchoolService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zt-company/src/main/java/com/zt/service/PostService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zt-company/src/main/java/com/zt/service/PostTagService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zt-company/src/main/java/com/zt/service/impl/PostSchoolServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zt-company/src/main/java/com/zt/service/impl/PostServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zt-company/src/main/java/com/zt/service/impl/PostTagServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zt-feign-api/src/main/java/com/zt/client/CompanyClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zt-feign-api/src/main/java/com/zt/entity/PostSchool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zt-feign-api/src/main/java/com/zt/entity/vo/CompanySimpleInfoVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/easyCodeTableSetting.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/easyCodeTableSetting.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zt-company/src/main/java/com/zt/entity/po/Recruiter.java" beforeDir="false" afterPath="$PROJECT_DIR$/zt-company/src/main/java/com/zt/entity/po/Recruiter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zt-company/src/main/java/com/zt/entity/vo/CompanySimpleInfoVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/zt-company/src/main/java/com/zt/entity/vo/CompanySimpleInfoVo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zt-company/src/main/java/com/zt/entity/vo/RecruiterInfoVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/zt-company/src/main/java/com/zt/entity/vo/RecruiterInfoVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zt-company/src/main/java/com/zt/controller/CompanyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/zt-company/src/main/java/com/zt/controller/CompanyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zt-company/src/main/java/com/zt/controller/RecruiterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/zt-company/src/main/java/com/zt/controller/RecruiterController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zt-company/src/main/java/com/zt/service/CompanyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/zt-company/src/main/java/com/zt/service/CompanyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zt-company/src/main/java/com/zt/service/RecruiterService.java" beforeDir="false" afterPath="$PROJECT_DIR$/zt-company/src/main/java/com/zt/service/RecruiterService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zt-company/src/main/java/com/zt/service/impl/CompanyServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/zt-company/src/main/java/com/zt/service/impl/CompanyServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zt-company/src/main/resources/bootstrap.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/zt-company/src/main/resources/bootstrap.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zt-feign-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zt-feign-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zt-company/src/main/java/com/zt/service/impl/RecruiterServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/zt-company/src/main/java/com/zt/service/impl/RecruiterServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zt-feign-api/src/main/java/com/zt/client/MediaClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/zt-feign-api/src/main/java/com/zt/client/MediaClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zt-graduate/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zt-graduate/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zt-graduate/src/main/java/com/zt/GraduateApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/zt-graduate/src/main/java/com/zt/GraduateApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zt-graduate/src/main/java/com/zt/service/impl/GraduateConcernServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/zt-graduate/src/main/java/com/zt/service/impl/GraduateConcernServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zt-media/src/main/java/com/zt/controller/MediaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/zt-media/src/main/java/com/zt/controller/MediaController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -94,6 +119,7 @@
       <recent name="D:\Code\zt\zt-graduate\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zt.entity.vo" />
       <recent name="com.zt.entity.po" />
       <recent name="com.zt.service.impl" />
       <recent name="com.zt.utils" />
@@ -184,6 +210,9 @@
       <workItem from="1686315684609" duration="1121000" />
       <workItem from="1686316817648" duration="479000" />
       <workItem from="1686318876184" duration="3331000" />
+      <workItem from="1686485859414" duration="94000" />
+      <workItem from="1686535711660" duration="4854000" />
+      <workItem from="1686555730984" duration="5408000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1684764659435</created>
@@ -227,7 +256,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686316710030</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="fix:feign调用">
+      <created>1686485923229</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1686485923229</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,7 +274,8 @@
     <MESSAGE value="feat:个人信息" />
     <MESSAGE value="feat:图片上传" />
     <MESSAGE value="feat:企业端信息注册" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat:企业端信息注册" />
+    <MESSAGE value="fix:feign调用" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix:feign调用" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

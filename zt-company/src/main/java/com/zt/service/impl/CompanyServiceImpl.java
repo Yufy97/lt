@@ -18,10 +18,6 @@ import com.zt.utils.BeanCopyUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.io.StreamTokenizer;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -52,12 +48,11 @@ public class CompanyServiceImpl extends ServiceImpl<CompanyMapper, Company> impl
     }
 
     @Override
-    public Result getSimpleInfo(Long recruiterId) {
+    public CompanySimpleInfoVo getSimpleInfo(Long recruiterId) {
         Recruiter recruiter = recruiterService.getById(recruiterId);
         Long companyId = recruiter.getCompanyId();
         Company company = getById(companyId);
-        CompanySimpleInfoVo companySimpleInfoVo = BeanCopyUtils.copyBean(company, CompanySimpleInfoVo.class);
-        return Result.okResult(companySimpleInfoVo);
+        return BeanCopyUtils.copyBean(company, CompanySimpleInfoVo.class);
     }
 
     @Override
@@ -71,6 +66,12 @@ public class CompanyServiceImpl extends ServiceImpl<CompanyMapper, Company> impl
 
         companyDetailVo.setPicture(picture);
         return Result.okResult(companyDetailVo);
+    }
+
+    @Override
+    public List<CompanySimpleInfoVo> getSimpleInfoListApi(List<Long> companyIds) {
+        List<Company> companies = lambdaQuery().in(Company::getId, companyIds).list();
+        return BeanCopyUtils.copyBeanList(companies, CompanySimpleInfoVo.class);
     }
 }
 

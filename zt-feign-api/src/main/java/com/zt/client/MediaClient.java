@@ -8,6 +8,6 @@ import java.util.List;
 
 @FeignClient("media-service")
 public interface MediaClient {
-    @GetMapping(value = "/media/list", consumes = MediaType.APPLICATION_JSON_VALUE)
+    @GetMapping(value = "/media/api/list", consumes = MediaType.APPLICATION_JSON_VALUE)
     List<Media> list(List<String> ids);
 }

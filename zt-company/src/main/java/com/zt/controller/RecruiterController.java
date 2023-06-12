@@ -32,4 +32,9 @@ public class RecruiterController {
     public Result update(@RequestBody RecruiterInfoDto recruiterInfoDto) {
         return recruiterService.update(recruiterInfoDto);
     }
+
+    @GetMapping("/info/{id}")
+    public Result getInfoById(@PathVariable("id") Long id) {
+        return Result.okResult(recruiterService.getInfoById(id));
+    }
 }

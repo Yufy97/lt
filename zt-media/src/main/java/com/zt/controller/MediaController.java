@@ -25,8 +25,8 @@ public class MediaController {
         return mediaService.remove(keys);
     }
 
-    @GetMapping("/list")
-    public List<Media> list(@RequestBody List<String> ids) {
+    @GetMapping("/api/list")
+    public List<Media> listApi(@RequestBody List<String> ids) {
         return mediaService.lambdaQuery().in(Media::getId, ids).list();
     }
 }

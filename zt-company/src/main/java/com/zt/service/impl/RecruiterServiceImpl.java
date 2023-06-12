@@ -90,4 +90,10 @@ public class RecruiterServiceImpl extends ServiceImpl<RecruiterMapper, Recruiter
         updateById(recruiter);
         return Result.okResult();
     }
+
+    @Override
+    public RecruiterInfoVo getInfoById(Long id) {
+        Recruiter recruiter = getById(id);
+        return BeanCopyUtils.copyBean(recruiter, RecruiterInfoVo.class);
+    }
 }

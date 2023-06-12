@@ -1,12 +1,15 @@
 package com.zt.service.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.zt.client.CompanyClient;
 import com.zt.entity.Result;
 import com.zt.entity.dto.GraduateConcernDto;
 import com.zt.entity.po.GraduateConcern;
+import com.zt.entity.vo.CompanySimpleInfoVo;
 import com.zt.mapper.GraduateConcernMapper;
 import com.zt.service.GraduateConcernService;
 import com.zt.utils.BeanCopyUtils;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDate;
@@ -21,15 +24,17 @@ import java.util.List;
 @Service("graduateConcernService")
 public class GraduateConcernServiceImpl extends ServiceImpl<GraduateConcernMapper, GraduateConcern> implements GraduateConcernService {
 
-        @Override
+    @Autowired
+    CompanyClient companyClient;
+
+    @Override
     public Result getGraduateConcernByUserId(Long userId, Integer type, Integer pageNum, Integer pageSize) {
         GraduateConcernMapper graduateConcernMapper = getBaseMapper();
         List<Long> concernIds = graduateConcernMapper.selectGraduateConcernByUserId(userId, type, (pageNum - 1) * pageSize, pageSize);
         //todo 获取关注信息
         if (type == 0) {
-
-        } else {
-
+            List<CompanySimpleInfoVo> simpleInfoListApi = companyClient.getSimpleInfoListApi(concernIds);
+            return Result.okResult(simpleInfoListApi);
         }
         return null;
     }

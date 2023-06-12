@@ -6,6 +6,7 @@ import com.zt.entity.dto.RecruiterInfoDto;
 import com.zt.entity.dto.RecruiterLoginDto;
 import com.zt.entity.dto.RecruiterRegisterDto;
 import com.zt.entity.po.Recruiter;
+import com.zt.entity.vo.RecruiterInfoVo;
 
 
 /**
@@ -23,5 +24,7 @@ public interface RecruiterService extends IService<Recruiter> {
     Result logout();
 
     Result update(RecruiterInfoDto recruiterInfoDto);
+
+    RecruiterInfoVo getInfoById(Long id);
 }
 
